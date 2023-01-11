@@ -24,7 +24,7 @@ String? validatePassword(String value) {
   RegExp regex =
       RegExp(r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$');
   if (value.isEmpty) {
-    return 'Please enter password';
+    return 'Please enter your password';
   } else {
     if (!regex.hasMatch(value)) {
       return 'Enter valid password';
@@ -72,16 +72,6 @@ class _SigninState extends State<Signin> {
             Container(
               padding: const EdgeInsets.all(10),
               child: TextField(
-                controller: firstnameController,
-                decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
-                  labelText: 'User Name',
-                ),
-              ),
-            ),
-            Container(
-              padding: const EdgeInsets.all(10),
-              child: TextField(
                 controller: lastnameController,
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(),
@@ -92,6 +82,7 @@ class _SigninState extends State<Signin> {
             Container(
               padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
               child: TextField(
+                // ignore: non_constant_identifier_names
                 onChanged: (PasswordInputElement) =>
                     validatePassword(PasswordInputElement),
                 obscureText: !_isvisible,
@@ -126,7 +117,8 @@ class _SigninState extends State<Signin> {
                 child: ElevatedButton(
                   child: const Text('Login'),
                   onPressed: () {
-                    // validatePassword(PasswordInputElement);
+                    validatePassword(('PasswordInputElement'));
+                    Navigator.pushNamed(context, 'userHome');
                   },
                 )),
             Row(

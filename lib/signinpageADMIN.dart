@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 
 import 'constants.dart';
@@ -48,7 +49,7 @@ class SignInAdminState extends State<SignInAdmin> {
             padding: const EdgeInsets.symmetric(vertical: 16.0),
             child: ElevatedButton(
               style: TextButton.styleFrom(
-                  foregroundColor: Colors.black,
+                  foregroundColor: Colors.black38,
                   elevation: 2,
                   backgroundColor: kPrimaryColor),
               onPressed: () {
