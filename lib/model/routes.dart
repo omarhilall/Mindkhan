@@ -12,13 +12,10 @@ final GoRouter _route = GoRouter(routes: <GoRoute>[
     routes: <GoRoute>[
       GoRoute(
           path: '/signinAdmin',
-          builder: (context, state) => const SignInAdmin()),
+          builder: (context, state) => const signinAdmin()),
       GoRoute(
           path: '/userHome', builder: (context, state) => const Homescreen()),
-      GoRoute(
-          path: '/signinUser',
-          name: 'signinUser',
-          builder: (context, state) => const Signin()),
+      GoRoute(path: '/signinUser', builder: (context, state) => const Signin()),
     ],
     path: '/',
     builder: (BuildContext context, GoRouterState state) =>

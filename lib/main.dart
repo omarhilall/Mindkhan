@@ -6,6 +6,7 @@ import 'package:scheduling_app/intro.dart';
 import 'package:scheduling_app/logch.dart';
 import 'package:scheduling_app/model/routes.dart';
 import 'package:go_router/go_router.dart';
+import 'package:scheduling_app/signinpageUSER.dart';
 
 import 'Payment.dart';
 
@@ -75,15 +76,16 @@ final GoRouter _route = GoRouter(routes: <GoRoute>[
       GoRoute(
         path: 'AdminScreen',
         builder: (BuildContext context, GoRouterState state) =>
-            HomescreenAdmin(),
+            const HomescreenAdmin(),
       ),
       GoRoute(
         path: 'Payment',
-        builder: (BuildContext context, GoRouterState state) => Payment(),
+        builder: (BuildContext context, GoRouterState state) => const Payment(),
       ),
       GoRoute(
         path: 'SignInAdmin',
-        builder: (BuildContext context, GoRouterState state) => SignInAdmin(),
+        builder: (BuildContext context, GoRouterState state) =>
+            const signinAdmin(),
       ),
       GoRoute(
         path: 'Appointments',
@@ -92,8 +94,9 @@ final GoRouter _route = GoRouter(routes: <GoRoute>[
       ),
       GoRoute(
         path: "post",
-        builder: (BuildContext context, GoRouterState state) => Post(),
+        builder: (BuildContext context, GoRouterState state) => const Post(),
       ),
+      GoRoute(path: 'signinUser', builder: (context, state) => const Signin()),
     ],
     path: '/',
     builder: (BuildContext context, GoRouterState state) => const IntroScreen(),
