@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scheduling_app/screens/thankupage.dart';
-import 'package:scheduling_app/constants.dart';
+import 'package:scheduling_app/services/constants.dart';
 
 class Payment extends StatefulWidget {
   const Payment({super.key});

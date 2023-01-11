@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:scheduling_app/callscreen.dart';
-import 'package:scheduling_app/constants.dart';
+import 'package:scheduling_app/services/callscreen.dart';
+import 'package:scheduling_app/services/constants.dart';
 import 'package:scheduling_app/screens/homescreen.dart';
 import 'package:scheduling_app/model/model.dart';
 import 'package:scheduling_app/model/posts.dart';

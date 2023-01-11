@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:scheduling_app/constants.dart';
+import 'package:scheduling_app/services/constants.dart';
 import 'package:scheduling_app/screens/editprofileUSER.dart';
 import 'package:scheduling_app/screens/homescreen.dart';
 import 'package:scheduling_app/screens/logch.dart';

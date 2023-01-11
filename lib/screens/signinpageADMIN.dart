@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../constants.dart';
+import '../services/constants.dart';
 
 const Color black = Color(0xFF000000);
 

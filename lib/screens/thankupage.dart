@@ -5,7 +5,7 @@ import 'package:scheduling_app/screens/Payment.dart';
 import 'package:scheduling_app/screens/YourAppointments.dart';
 import 'package:scheduling_app/main.dart';
 import 'package:scheduling_app/screens/userHome.dart';
-import "package:scheduling_app/constants.dart";
+import 'package:scheduling_app/services/constants.dart';
 
 class ThankYouPage extends StatefulWidget {
   const ThankYouPage({Key? key, required this.title}) : super(key: key);

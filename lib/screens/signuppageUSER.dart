@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../constants.dart';
+import '../services/constants.dart';
 
 const Color black = Color(0xFF000000);
 
