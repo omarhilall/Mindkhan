@@ -30,9 +30,6 @@ class signinAdmin extends StatelessWidget {
               ),
             ],
           ),
-          Row(
-            children: const [],
-          ),
           ButtonBar(
             alignment: MainAxisAlignment.spaceBetween,
             buttonPadding: const EdgeInsets.symmetric(
@@ -45,7 +42,7 @@ class signinAdmin extends StatelessWidget {
                     elevation: 2,
                     backgroundColor: kPrimaryColor),
                 onPressed: () {},
-                child: const Text("Cancel"),
+                child: const Text("Submit"),
               ),
               TextButton(
                 style: TextButton.styleFrom(
@@ -53,7 +50,7 @@ class signinAdmin extends StatelessWidget {
                     elevation: 2,
                     backgroundColor: kPrimaryColor),
                 onPressed: () {},
-                child: const Text("Submit"),
+                child: const Text("Cancel"),
               ),
             ],
           ),
