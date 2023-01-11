@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:scheduling_app/constants.dart';
-import 'package:scheduling_app/editprofieAdmin.dart';
-import 'package:scheduling_app/intro.dart';
-import 'package:scheduling_app/logch.dart';
+import 'package:scheduling_app/screens/editprofieAdmin.dart';
+import 'package:scheduling_app/screens/intro.dart';
+import 'package:scheduling_app/screens/logch.dart';
 import 'package:scheduling_app/main.dart';
 import 'package:scheduling_app/model/model.dart';
 import 'package:scheduling_app/model/posts.dart';
-import 'package:scheduling_app/writePost.dart';
+import 'package:scheduling_app/screens/writePost.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 import '../callscreen.dart';
