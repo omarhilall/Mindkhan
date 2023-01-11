@@ -3,10 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:scheduling_app/constants.dart';
 import 'package:scheduling_app/editprofileUSER.dart';
-import 'package:scheduling_app/homescreen.dart';
+import 'package:scheduling_app/screens/homescreen.dart';
 import 'package:scheduling_app/logch.dart';
-import 'package:scheduling_app/signinpageADMIN.dart';
-import 'package:scheduling_app/signinpageUSER.dart';
+import 'package:scheduling_app/screens/signinpageADMIN.dart';
+import 'package:scheduling_app/screens/signinpageUSER.dart';
 import 'package:scheduling_app/userHome.dart';
 
 const Color black = Color(0xFF000000);

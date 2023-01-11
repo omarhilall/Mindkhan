@@ -6,15 +6,15 @@ import 'package:scheduling_app/intro.dart';
 import 'package:scheduling_app/logch.dart';
 import 'package:scheduling_app/model/routes.dart';
 import 'package:go_router/go_router.dart';
-import 'package:scheduling_app/signinpageUSER.dart';
+import 'package:scheduling_app/screens/signinpageUSER.dart';
 
 import 'Payment.dart';
 
 import 'editprofieAdmin.dart';
-import 'homescreen.dart';
+import 'screens/homescreen.dart';
 import 'model/posts.dart';
 import 'model/routes.dart';
-import 'signinpageADMIN.dart';
+import 'screens/signinpageADMIN.dart';
 import 'userHome.dart';
 import 'writePost.dart';
 
