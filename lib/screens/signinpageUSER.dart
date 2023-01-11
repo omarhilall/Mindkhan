@@ -69,7 +69,9 @@ class Signin extends StatelessWidget {
                         foregroundColor: Colors.black,
                         elevation: 2,
                         backgroundColor: kPrimaryColor),
-                    onPressed: () {},
+                    onPressed: () {
+                      context.go('/signup');
+                    },
                     child: const Text('Sign Up'),
                   ),
                 ],

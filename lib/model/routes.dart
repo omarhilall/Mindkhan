@@ -5,11 +5,13 @@ import 'package:scheduling_app/editprofieAdmin.dart';
 import 'package:scheduling_app/screens/signinpageADMIN.dart';
 import 'package:scheduling_app/screens/signinpageUSER.dart';
 
+import '../screens/signuppageUSER.dart';
 import '../userHome.dart';
 
 final GoRouter _route = GoRouter(routes: <GoRoute>[
   GoRoute(
     routes: <GoRoute>[
+      GoRoute(path: 'signup', builder: (context, state) => const SignUp()),
       GoRoute(
           path: '/signinAdmin',
           builder: (context, state) => const signinAdmin()),
