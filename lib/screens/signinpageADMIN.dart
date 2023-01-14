@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import '../services/constants.dart';
+import '../screens/homescreen.dart';
 
 const Color black = Color(0xFF000000);
 
@@ -10,7 +12,7 @@ class signinAdmin extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text("Sign In(Admin)"),
+          title: const Text("Welcome "),
           centerTitle: true,
           backgroundColor: kSecondaryColor),
       body: Column(
@@ -34,7 +36,9 @@ class signinAdmin extends StatelessWidget {
                 foregroundColor: Colors.black,
                 elevation: 2,
                 backgroundColor: kPrimaryColor),
-            onPressed: () {},
+            onPressed: () {
+              context.go('/AdminScreen');
+            },
             child: const Text('Sign In'),
           ),
         ],
